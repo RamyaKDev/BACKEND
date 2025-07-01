@@ -4,11 +4,11 @@ ConsoleBased application – courseapplication
 2. In the console based application, our application starts from main method but not in web based or RestAPI’s.
 
 3. We are having Service package in that Icourse interface is there, which has following abstract methods
-    getlistofcourse()
-    getcoursebyID()
-    getcoursebyType()
-    getByLessDurationAndCost()
-    getCourseName()
+    getlistofcourse()- Displays all the list of courses
+    getcoursebyID()-Displays the list of course based on Id
+    getcoursebyType()-Displays the list of courses based on Type
+    getByLessDurationAndCost()-Displays the list of course based on less duration and cost
+    getCourseName()-Displays the list of course based on Name
 
 4. Implemented all the abstract methods in CourseServiceImpl class
    

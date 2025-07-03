@@ -25,13 +25,43 @@ public class SpringProductappJpaApplication implements CommandLineRunner {
 		ProductDto productDto=new ProductDto("Mobile", null, 20000,"Electronics","Samsung");
 		//call the method of service layer
 		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Laptop", null, 50000,"Electronics","Dell");		
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Ipad", null, 15000,"Electronics","Lenovo");	
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("HeadPhones", null, 20000,"Electronics","Samsung");		
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Camera", null, 1000,"Electronics","logi");
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Table", null, 5000,"Furniture","IKEA");	
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Sofa", null, 25500,"Furniture","IKEA");	
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Shoes", null, 3500,"Sports","Nike");		
+		iProductService.addProduct(productDto);
+		productDto=new ProductDto("Jacket", null, 5020,"Sports","Adidas");
+		iProductService.addProduct(productDto);
 		
+		System.out.println();
+		//Displaying all the products here
+		System.out.println("Get All Products");
+		iProductService.getAll().forEach(System.out::println);
+		//Here it comes as a list so we need to iterate them one by one by using foreach and method reference 
+		
+		System.out.println();
+		//fetching product by id
 		ProductDto nproductDto=iProductService.getById(1);
 		System.out.println(nproductDto);
 		
+		System.out.println();
 		//update - call setter methods
 		nproductDto.setPrice(30000);
 		iProductService.updateProduct(nproductDto);
+		System.out.println();
+		System.out.println("Updated by ID");
+		nproductDto=iProductService.getById(1);
+		System.out.println(nproductDto);
+		//displaying again after the product is updated by id
 		
 	}
 

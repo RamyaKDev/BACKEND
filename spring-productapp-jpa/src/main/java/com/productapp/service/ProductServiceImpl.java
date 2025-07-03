@@ -2,11 +2,13 @@ package com.productapp.service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.productapp.exception.ProductNotFoundException;
 import com.productapp.model.Product;
 import com.productapp.model.ProductDto;
 import com.productapp.repository.IProductRepository;
@@ -52,22 +54,35 @@ public class ProductServiceImpl implements IProductService{
 
 	@Override
 	public ProductDto getById(int productId) {
-		Optional<Product> productOpt=iProductRepository.findById(productId);
-		//check if opt is having value product entity
-		if(productOpt.isPresent()) {
-			//this return the product entity
-			Product product=productOpt.get();
-			//convert the entity into productDto object
-			ProductDto productDto=mapper.map(product, ProductDto.class);
-			return productDto;
-		}
-		return null;
-	}
+//		Optional<Product> productOpt=iProductRepository.findById(productId);
+//		//check if opt is having value product entity
+//		if(productOpt.isPresent()) {
+//			//this return the product entity
+//			Product product=productOpt.get();
+//			//convert the entity into productDto object
+//			ProductDto productDto=mapper.map(product, ProductDto.class);
+//			return productDto;
+//		}
+//		return null;
+		//get the value if present or throw exception
+		Product product=iProductRepository.findById(productId)
+	//	.orElseThrow(()->{new throw ProductNotFoundException("invalid id"))
+	//					} //to convert as as single line code removed curly braces and throw keywords
+		.orElseThrow(()->new ProductNotFoundException("invalid id"));
+		ProductDto productDto=mapper.map(product,ProductDto.class );
+		return productDto;
+	}//orElseThrow()-If a value is present, returns the value, otherwise throws an exception produced by the exception supplying function
 
 	@Override
 	public List<ProductDto> getAll() {
-		// TODO Auto-generated method stub
-		return null;
+		//findAll() retrieves all the products(entity) from db we have to convert them to dto.
+		//it comes as a product list so we have to convert each one by one product to product dto object.
+		// we can use for loop but instead of that used streams and map function
+		
+		List<Product> listofproducts= iProductRepository.findAll();
+		return listofproducts.stream()
+		.map(product->mapper.map(product, ProductDto.class))
+		.collect(Collectors.toList());
 	}
 
 }

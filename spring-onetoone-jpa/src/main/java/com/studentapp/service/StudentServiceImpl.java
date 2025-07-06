@@ -7,9 +7,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.productapp.exception.ProductNotFoundException;
-import com.productapp.model.Product;
-import com.productapp.model.ProductDto;
+
 import com.studentapp.exception.StudentNotFoundException;
 import com.studentapp.model.Student;
 import com.studentapp.model.StudentDto;
@@ -71,15 +69,15 @@ public class StudentServiceImpl implements IStudentService{
 
 	@Override
 	public List<StudentDto> getByState(String state) {
-		List<Student> students = studentRepository.findByDepartment(state);
+		List<Student> students = studentRepository.findByAddressState(state);
 		if (students.isEmpty())
 			throw new StudentNotFoundException("Student not found");
 		return students.stream().map(student -> mapper.map(student, StudentDto.class)).collect(Collectors.toList());
 	}
 
 	@Override
-	public List<StudentDto> getByCity(String state) {
-		List<Student> students = studentRepository.findByDepartment(state);
+	public List<StudentDto> getByCity(String city) {
+		List<Student> students = studentRepository.findByAddressCity(city);
 		if (students.isEmpty())
 			throw new StudentNotFoundException("Student not found");
 		return students.stream().map(student -> mapper.map(student, StudentDto.class)).collect(Collectors.toList());

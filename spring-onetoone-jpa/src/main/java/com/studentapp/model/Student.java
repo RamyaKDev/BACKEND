@@ -1,9 +1,8 @@
 package com.studentapp.model;
 
-import org.hibernate.annotations.Cascade;
-import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails.Address;
 
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,15 +19,16 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class Student {
+	@Column(length = 20)
 	private String studentName;
 	@Id
-	@GeneratedValue(generator = "stud_gen", strategy = GenerationType.AUTO)
-	@SequenceGenerator(name = "stu_gen", sequenceName = "student_seq", initialValue = 100)
-	private int studentId;
+	@GeneratedValue(generator = "stud_gen",strategy = GenerationType.AUTO)
+	@SequenceGenerator(name = "stud_gen",sequenceName = "student_seq",initialValue = 100)
+	private Integer studentId;
+	@Column(length = 20)
 	private String department;
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="add_id")
-	
+	// save the child reference address before saving student object
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "add_id") // to give a different column name
 	private Address address;
-
 }

@@ -13,9 +13,11 @@ public interface IStudentRepository extends JpaRepository<Student, Integer> {
 //Derived Query
 	List<Student> findByDepartment(String department);
 	
+	//custom query
+	@Query("from Student s inner join s.address a where a.city=?1")
 	List<Student> findByAddressCity(String city);
 	
-	//custom query
+	
 	@Query("from Student s inner join s.address a where a.state=?1")
-	List<Student> findByState(String state);
+	List<Student> findByAddressState(String state);
 }

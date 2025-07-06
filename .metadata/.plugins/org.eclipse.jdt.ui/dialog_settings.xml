@@ -10,7 +10,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="706"/>
+		<item key="DIALOG_X_ORIGIN" value="368"/>
 		<item key="DIALOG_Y_ORIGIN" value="235"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="500"/>
@@ -20,7 +20,7 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="697"/>
+		<item key="DIALOG_X_ORIGIN" value="288"/>
 		<item key="DIALOG_Y_ORIGIN" value="99"/>
 		<item key="DIALOG_WIDTH" value="542"/>
 		<item key="DIALOG_HEIGHT" value="638"/>
@@ -70,11 +70,11 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="709"/>
+		<item key="DIALOG_X_ORIGIN" value="374"/>
 		<item key="DIALOG_Y_ORIGIN" value="72"/>
-		<item key="DIALOG_WIDTH" value="678"/>
-		<item key="DIALOG_HEIGHT" value="869"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="519"/>
+		<item key="DIALOG_HEIGHT" value="678"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_X_ORIGIN" value="710"/>
@@ -84,7 +84,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewInterfaceCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="695"/>
+		<item key="DIALOG_X_ORIGIN" value="347"/>
 		<item key="DIALOG_Y_ORIGIN" value="176"/>
 		<item key="DIALOG_WIDTH" value="546"/>
 		<item key="DIALOG_HEIGHT" value="522"/>
@@ -100,5 +100,16 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="renameSubpackages" value="false"/>
+	</section>
+	<section name="AddUnimplementedConstructorsDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
+		<item key="DIALOG_X_ORIGIN" value="374"/>
+		<item key="DIALOG_Y_ORIGIN" value="106"/>
+		<item key="DIALOG_WIDTH" value="519"/>
+		<item key="DIALOG_HEIGHT" value="627"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

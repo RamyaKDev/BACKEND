@@ -15,9 +15,10 @@ import com.studentapp.repository.IStudentRepository;
 @Service
 public class StudentServiceImpl implements IStudentService{
 
-	private IStudentRepository studentRepository;
+	
 	@Autowired
 	private ModelMapper mapper;
+	private IStudentRepository studentRepository;
 	public StudentServiceImpl(IStudentRepository studentRepository) {
 		super();
 		this.studentRepository = studentRepository;
@@ -44,11 +45,13 @@ public class StudentServiceImpl implements IStudentService{
 
 	@Override
 	public List<StudentDto> getAll() {
-		List<Student> students=studentRepository.findAll();
-		return students.stream()
-				.map(student->mapper.map(student,StudentDto.class))
-				.collect(Collectors.toList());
-		
+		List<Student> students = studentRepository.findAll();
+
+		// System.out.println("CHECK-001");
+		// students.forEach(System.out::println);
+		return students.stream().map(student -> mapper.map(student, StudentDto.class))
+				.sorted((s1, s2) -> s1.getStudentName().compareTo(s2.getStudentName())).toList();
+
 	}
 
 	@Override

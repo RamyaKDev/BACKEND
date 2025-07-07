@@ -29,7 +29,9 @@ public class SpringProductappJpaApplication implements CommandLineRunner {
 		iProductService.addProduct(productDto);
 		productDto=new ProductDto("Ipad", null, 15000,"Electronics","Lenovo");	
 		iProductService.addProduct(productDto);
-		productDto=new ProductDto("HeadPhones", null, 20000,"Electronics","Samsung");		
+		productDto =  new ProductDto("Ear Phones", null, 6000, "Electronics","Boat");
+		iProductService.addProduct(productDto);
+		productDto =  new ProductDto("Toy Phones", null, 3200, "Electronics","Samsung");
 		iProductService.addProduct(productDto);
 		productDto=new ProductDto("Camera", null, 1000,"Electronics","logi");
 		iProductService.addProduct(productDto);
@@ -62,6 +64,38 @@ public class SpringProductappJpaApplication implements CommandLineRunner {
 		nproductDto=iProductService.getById(1);
 		System.out.println(nproductDto);
 		//displaying again after the product is updated by id
+		
+		
+		System.out.println();
+		// Displaying the products by Brand
+		System.out.println("Get the products by Brand");
+		iProductService.getByBrand("IKEA").forEach(System.out::println);
+		
+		System.out.println();
+		// Displaying the products by Category
+		System.out.println("Get the products by Category");
+		iProductService.getByCategory("Electronics").forEach(System.out::println);
+		
+		System.out.println();
+		// Displaying the products by category and less price
+		System.out.println("Get the products by category and less price");
+		iProductService.getByCatLessPrice("Electronics", 10000).forEach(System.out::println);
+		
+		System.out.println();
+		System.out.println("Custom - Get By category with name contains");
+		iProductService.getByCatNameContains("Electronics","Phones").stream().forEach(System.out::println);
+		
+		System.out.println();
+		System.out.println("Custom - Get By brand and less price");
+		iProductService.getByBrandPrice("Samsung",8000).stream().forEach(System.out::println);
+		
+		System.out.println();
+		System.out.println("Named - Get By category and brand");
+		iProductService.getByCatBrand("Electronics","Dell").stream().forEach(System.out::println);
+		
+		System.out.println();
+		System.out.println("Native Query - Get By category with less price");
+		iProductService.getByCatLessPrice("Sports", 9000).stream().forEach(System.out::println);
 		
 	}
 

@@ -23,17 +23,17 @@ public class SpringOnetooneJpaApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		// create address object
-		AddressDto addressDto = new AddressDto("Cochin", null, "Kerala");
+		//AddressDto addressDto = new AddressDto("Cochin", null, "Kerala");
 		// create student object
-		StudentDto studentDto = new StudentDto("Peter", null, "EEE", addressDto);
+		//StudentDto studentDto = new StudentDto("Peter", null, "EEE", addressDto);
 		//studentService.addStudent(studentDto);
 		
 		
-		System.out.println();
+		//System.out.println();
 		System.out.println("Get All Students");
 		studentService.getAll().forEach(System.out::println);
 		
-		System.out.println();
+	/*	System.out.println();
 		System.out.println("Get Student by Id");
 		StudentDto nstudentDto= studentService.getById(151);
 		System.out.println(nstudentDto);
@@ -59,7 +59,8 @@ public class SpringOnetooneJpaApplication implements CommandLineRunner {
 		
 		System.out.println();
 		System.out.println("Get Students by city");
-		studentService.getByCity("Chennai").forEach(System.out::println);
-	}
+		studentService.getByCity("Chennai").forEach(System.out::println);*/
+	}	
+	
 
 }

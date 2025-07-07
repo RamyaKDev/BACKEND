@@ -724,3 +724,220 @@
 2025-07-06 00:52:34,833 [Worker-36: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-06 00:52:34,864 [Worker-36: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-07-06 00:52:34,870 [Worker-36: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:06:52,356 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-06 18:12:42,628 [Worker-1: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:12:42,648 [Worker-1: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:12:42,654 [Worker-1: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:15:38,298 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:15:38,305 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:15:38,310 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:40:49,490 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:40:49,509 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:40:49,514 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:42:31,335 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:42:31,346 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:42:31,350 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:51:40,807 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:51:40,813 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:51:40,816 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:58:03,674 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:58:03,678 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:58:03,681 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 18:58:39,006 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 18:58:39,015 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 18:58:39,018 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 19:05:39,370 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 19:05:39,380 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 19:05:39,383 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 19:11:37,833 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 19:11:37,840 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 19:11:37,843 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 19:13:00,230 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 19:13:00,238 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 19:13:00,241 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-06 19:15:41,557 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-06 19:15:41,562 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-06 19:15:41,565 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 05:19:01,339 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-07 05:19:04,974 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-07-07 05:24:55,774 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:24:55,799 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:24:55,805 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 05:29:25,398 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.movieapp:movieapp:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\movieapp\pom.xml.
+2025-07-07 05:29:26,182 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movieapp/src/main/java
+2025-07-07 05:29:26,185 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movieapp/src/main/resources
+2025-07-07 05:29:26,189 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movieapp/src/main/resources
+2025-07-07 05:29:26,192 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movieapp/src/test/java
+2025-07-07 05:29:26,193 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movieapp/src/test/resources
+2025-07-07 05:29:26,447 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-07-07 05:29:26,451 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-07 05:29:26,794 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.movieapp:movieapp:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\movieapp\pom.xml.
+2025-07-07 05:29:27,235 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movieapp/src/main/java
+2025-07-07 05:29:27,235 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movieapp/src/main/resources
+2025-07-07 05:29:27,236 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movieapp/src/main/resources
+2025-07-07 05:29:27,236 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /movieapp/src/test/java
+2025-07-07 05:29:27,237 [Worker-11: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /movieapp/src/test/resources
+2025-07-07 05:29:27,547 [Worker-11: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-07 05:29:28,081 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:29:28,092 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:29:28,095 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\movieapp\src\test\resources
+2025-07-07 05:31:01,057 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:31:01,063 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:31:01,066 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\movieapp\src\test\resources
+2025-07-07 05:31:15,180 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:31:15,188 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:31:15,193 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\movieapp\src\test\resources
+2025-07-07 05:45:41,816 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:45:41,829 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:45:41,834 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\movieapp\src\test\resources
+2025-07-07 05:55:12,859 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.movieapp:movieapp:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\pom.xml.
+2025-07-07 05:55:13,470 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:55:13,489 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:55:13,495 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 05:55:13,843 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:55:13,844 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:55:13,847 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 05:55:13,923 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 05:55:13,928 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 05:55:13,930 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 06:01:15,070 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.movieapp:movieapp:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\pom.xml.
+2025-07-07 06:01:15,540 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:01:15,566 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:01:15,572 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:01:15,917 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.productapp:spring-onetoone-jpa:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\pom.xml.
+2025-07-07 06:01:16,448 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:01:16,448 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:01:16,454 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 06:01:17,618 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:01:17,639 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:01:17,642 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:06:38,593 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:06:38,600 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:06:38,605 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:07:40,879 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:07:40,885 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:07:40,893 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:08:49,719 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:08:49,724 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:08:49,728 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:09:42,858 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:09:42,867 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:09:42,878 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:12:14,265 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:12:14,274 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:12:14,278 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:22:23,362 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:22:23,410 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:22:23,413 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 06:36:54,279 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:36:54,293 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:36:54,298 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:37:30,241 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:37:30,247 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:37:30,251 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:38:29,567 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:38:29,573 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:38:29,576 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 06:59:25,859 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 06:59:25,868 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 06:59:25,872 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 07:04:33,410 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 07:04:33,420 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 07:04:33,430 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 07:07:09,939 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 07:07:09,947 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 07:07:09,949 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 07:11:06,965 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 07:11:06,972 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 07:11:06,974 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 07:11:22,165 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 07:11:22,173 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 07:11:22,177 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:00:31,754 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-07 10:06:23,849 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-07 10:06:23,868 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:06:23,873 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 10:06:56,637 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:06:56,705 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:06:56,716 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:12:14,086 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:12:14,095 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:12:14,099 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:24:09,448 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:24:09,454 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:24:09,457 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:26:37,411 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:26:37,418 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:26:37,421 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:29:14,573 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:29:14,577 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:29:14,580 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:30:55,128 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:30:55,138 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:30:55,141 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 10:44:29,362 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 10:44:29,376 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 10:44:29,380 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:18:02,955 [Worker-45: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:18:02,988 [Worker-45: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:18:02,993 [Worker-45: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:33:17,407 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-07 12:33:17,441 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:33:17,445 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-courseapp-basic\src\test\resources
+2025-07-07 12:39:38,312 [Worker-53: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:39:38,404 [Worker-53: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:39:38,410 [Worker-53: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:41:06,532 [Worker-53: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:41:06,539 [Worker-53: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:41:06,542 [Worker-53: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:42:11,791 [Worker-57: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:42:11,795 [Worker-57: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:42:11,799 [Worker-57: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:45:14,115 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:45:14,123 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:45:14,126 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:46:49,744 [Worker-64: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:46:49,750 [Worker-64: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:46:49,753 [Worker-64: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 12:56:37,018 [Worker-70: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-07 12:56:37,035 [Worker-70: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:56:37,039 [Worker-70: Launching spring-onetoone-jpa - SpringOnetooneJpaApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 12:57:21,834 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 12:57:21,846 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:57:21,850 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 12:58:54,299 [Worker-83: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.productapp:spring-onetoone-jpa:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\pom.xml.
+2025-07-07 12:58:54,734 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:58:54,734 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:58:54,738 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 12:59:22,684 [Worker-82: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-07 12:59:22,928 [Worker-82: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.productapp:spring-onetoone-jpa:0.0.1-SNAPSHOT @ I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\pom.xml.
+2025-07-07 12:59:23,295 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-onetoone-jpa/src/main/java
+2025-07-07 12:59:23,297 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-onetoone-jpa/src/main/resources
+2025-07-07 12:59:23,298 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-onetoone-jpa/src/main/resources
+2025-07-07 12:59:23,298 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-onetoone-jpa/src/test/java
+2025-07-07 12:59:23,299 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-onetoone-jpa/src/test/resources
+2025-07-07 12:59:23,552 [Worker-82: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-07 12:59:24,040 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-07-07 12:59:24,070 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 12:59:24,078 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 13:00:09,499 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:00:09,507 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:00:09,511 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-onetoone-jpa\src\test\resources
+2025-07-07 13:11:52,810 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:11:52,818 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:11:52,820 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 13:12:29,661 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:12:29,666 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:12:29,669 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 13:13:03,541 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:13:03,547 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:13:03,550 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 13:13:36,356 [Worker-89: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:13:36,361 [Worker-89: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:13:36,364 [Worker-89: Launching spring-movieapp-jpa - MovieappApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 13:13:53,268 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:13:53,273 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:13:53,275 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources
+2025-07-07 13:14:28,605 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-07 13:14:28,609 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-07 13:14:28,612 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-movieapp-jpa\src\test\resources

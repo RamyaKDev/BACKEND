@@ -1,3 +1,4 @@
+
 package com.productapp.model;
 
 import jakarta.persistence.Column;

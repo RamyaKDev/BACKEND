@@ -23,11 +23,11 @@ public class RestaurantDto {
 	
 	private String category;
 	
-	private String cusine;
+	private String cuisine;
 	
 	private String city;      
-	@OneToMany
-	private Set<Item> items;
+	
+	private Set<ItemDto> items;
 	
 }
 	

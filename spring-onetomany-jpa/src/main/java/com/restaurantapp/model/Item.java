@@ -14,19 +14,18 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+@Data                                                                                                                                                                                                                  
 @Entity
 public class Item {
 	@Column(length=30)
 	private String itemName;
 	@Id
 	@GeneratedValue(generator="item_gen",strategy=GenerationType.AUTO)
-	@SequenceGenerator(name="item_gen",sequenceName = "item_seq",initialValue = 50)
+	@SequenceGenerator(name="item_gen",sequenceName = "item_seq",initialValue = 100)
 	private Integer itemId;
 	@Column(length=20)
 	private String itemType;//breakfast,lunch,dinner,dessert,soup
 	@Column(length=20)
 	private double price;
 	
-
 }

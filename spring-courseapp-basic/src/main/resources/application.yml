@@ -1,2 +1,5 @@
-Spring:
-  jpa:
+spring:
+  datasource:
+    username=root
+    password=abcd
+

@@ -63,11 +63,11 @@ public class SpringUpworksJpaOnetooneApplication implements CommandLineRunner{
 		jobService.getByLocation("Pune").forEach(System.out::println);
 		
 		System.out.println();
-		System.out.println(" get By Type and Role");
+		System.out.println(" get job By Type and Role");
 		jobService.getByTypeandRole(JOBTYPE.FULLTIME.name(),ROLE.CONTRACT.name()).forEach(System.out::println);
 		
 		System.out.println();
-		System.out.println(" get By Type and Mode");
+		System.out.println(" get job By Type and Mode");
 		jobService.getByTypeandMode(JOBTYPE.PARTTIME.name(),MODE.offline.name()).forEach(System.out::println);
 		
 		System.out.println();

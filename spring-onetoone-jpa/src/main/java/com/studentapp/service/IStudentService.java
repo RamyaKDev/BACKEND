@@ -14,7 +14,7 @@ public interface IStudentService {
 
 	List<StudentDto> getAll();
 
-	StudentDto getById(int productId);
+	StudentDto getById(int studentId);
 	
 	List<StudentDto> getByDepartment(String department);
 	List<StudentDto> getByState(String state);

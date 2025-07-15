@@ -51,10 +51,17 @@ public class CourseServiceImpl implements ICourseService{
 
 	@Override
 	public CourseDto getById(int courseId) {
-		Course course=courseRepository.findById(courseId)
-				.orElseThrow(()->new CourseNotFoundException("Invalid Id"));
-				 CourseDto courseDto=mapper.map(course, CourseDto.class);
-				 return courseDto;
+		Course course = courseRepository.findById(courseId)
+				.orElseThrow(()-> new CourseNotFoundException("invalid course id"));
+		System.out.println(course);
+		CourseDto courseDto =  new CourseDto();
+		courseDto.setCourseId(courseId);
+		courseDto.setCourseName(course.getCourseName());
+		courseDto.setMode(course.getMode());
+		courseDto.setType(course.getType());
+		courseDto.setFees(course.getFees());
+		
+		return courseDto;
 	}
 
 	@Override

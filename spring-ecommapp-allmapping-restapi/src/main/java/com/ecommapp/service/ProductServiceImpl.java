@@ -56,29 +56,29 @@ public class ProductServiceImpl implements IProductService {
 		
 	}
 
-	@Override
-	public List<ProductDto> getByBrand(String brand) throws ProductNotFoundException {
-		List<Product> products = productRepository.findByBrand(brand);
-		if (products.isEmpty())
-			throw new ProductNotFoundException("brand not found");
-		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
-		
-	}
-
-	@Override
-	public List<ProductDto> getByCategory(String category) throws ProductNotFoundException {
-		List<Product> products = productRepository.findByCategory(category);
-		if (products.isEmpty())
-			throw new ProductNotFoundException("brand not found");
-		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
-	}
-
-	@Override
-	public List<ProductDto> getByCatLessPrice(String category, double price) throws ProductNotFoundException {
-		List<Product> products = productRepository.findByCategoryAndPriceLessThanEqual(category, price);
-		if (products.isEmpty())
-			throw new ProductNotFoundException("category and price with less amount not available");
-		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
-	}
+//	@Override
+//	public List<ProductDto> getByBrand(String brand) throws ProductNotFoundException {
+//		List<Product> products = productRepository.findByBrand(brand);
+//		if (products.isEmpty())
+//			throw new ProductNotFoundException("brand not found");
+//		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
+//		
+//	}
+//
+//	@Override
+//	public List<ProductDto> getByCategory(String category) throws ProductNotFoundException {
+//		List<Product> products = productRepository.findByCategory(category);
+//		if (products.isEmpty())
+//			throw new ProductNotFoundException("brand not found");
+//		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
+//	}
+//
+//	@Override
+//	public List<ProductDto> getByCatLessPrice(String category, double price) throws ProductNotFoundException {
+//		List<Product> products = productRepository.findByCategoryAndPriceLessThanEqual(category, price);
+//		if (products.isEmpty())
+//			throw new ProductNotFoundException("category and price with less amount not available");
+//		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
+//	}
 
 }

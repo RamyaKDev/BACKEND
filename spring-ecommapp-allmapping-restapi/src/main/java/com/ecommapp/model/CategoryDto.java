@@ -13,6 +13,10 @@ import lombok.ToString;
 
 public class CategoryDto {
 
+	public CategoryDto(String categoryName) {
+		super();
+		this.categoryName = categoryName;
+	}
 	private Integer categoryId;
 	private String categoryName;
 	@ToString.Exclude

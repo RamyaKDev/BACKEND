@@ -30,8 +30,8 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="288"/>
-		<item key="DIALOG_Y_ORIGIN" value="99"/>
+		<item key="DIALOG_X_ORIGIN" value="30"/>
+		<item key="DIALOG_Y_ORIGIN" value="97"/>
 		<item key="DIALOG_WIDTH" value="574"/>
 		<item key="DIALOG_HEIGHT" value="659"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -94,7 +94,7 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewInterfaceCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="625"/>
+		<item key="DIALOG_X_ORIGIN" value="389"/>
 		<item key="DIALOG_Y_ORIGIN" value="192"/>
 		<item key="DIALOG_WIDTH" value="578"/>
 		<item key="DIALOG_HEIGHT" value="543"/>
@@ -131,8 +131,8 @@
 	<section name="CallHierarchySearchScope">
 	</section>
 	<section name="NewEnumCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="697"/>
-		<item key="DIALOG_Y_ORIGIN" value="180"/>
+		<item key="DIALOG_X_ORIGIN" value="-789"/>
+		<item key="DIALOG_Y_ORIGIN" value="236"/>
 		<item key="DIALOG_WIDTH" value="542"/>
 		<item key="DIALOG_HEIGHT" value="517"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

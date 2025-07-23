@@ -17,4 +17,8 @@ public class BrandDto {
 	private String brandName;
 	@ToString.Exclude
 	private Set<Product> products;
+	public BrandDto(String brandName) {
+		super();
+		this.brandName = brandName;
+	}
 }

@@ -23,11 +23,19 @@ import jakarta.persistence.OneToOne;
 import jakarta.persistence.SequenceGenerator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+//@Data
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode
 @Entity
 public class Product {
 	@Column(length = 30)
@@ -47,15 +55,18 @@ public class Product {
 
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	@JoinColumn(name = "product_id")
-	private Set<Offers> offers;
+	private List<Offers> offers;
 
-	@ManyToOne
+	@ManyToOne(cascade= CascadeType.ALL)
 	@JoinColumn(name = "brand_id")
 	private Brand brand;
 
-	@ManyToMany
+	@ManyToMany(cascade = {
+	        
+	        CascadeType.MERGE
+	    })
 	@JoinTable(name = "product_Category", joinColumns = @JoinColumn(name = "product_id"), inverseJoinColumns = @JoinColumn(name = "category_id"))
-	private Set<Category> categories;
+	private List<Category> categories;
 
 	@ElementCollection
 	@CollectionTable(name = "payment", joinColumns = @JoinColumn(name = "product_id"))

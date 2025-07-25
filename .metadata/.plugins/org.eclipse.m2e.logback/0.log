@@ -2317,3 +2317,65 @@
 2025-07-23 12:59:18,436 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2025-07-23 12:59:18,443 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-07-23 12:59:18,446 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 16:11:17,874 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-23 16:16:10,513 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 16:16:10,549 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 16:16:10,559 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 16:25:44,912 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 16:25:44,937 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 16:25:44,946 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 16:44:24,522 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 16:44:24,532 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 16:44:24,534 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 16:54:14,866 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 16:54:14,891 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 16:54:14,894 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 16:56:56,653 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 16:56:56,671 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 16:56:56,676 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 16:59:53,864 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 16:59:53,873 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 16:59:53,876 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 17:00:43,383 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 17:00:43,396 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 17:00:43,399 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 17:14:18,358 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 17:14:18,372 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 17:14:18,375 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 17:17:02,044 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 17:17:02,053 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 17:17:02,056 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 17:17:29,409 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 17:17:29,421 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 17:17:29,424 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 17:19:07,295 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 17:19:07,307 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 17:19:07,308 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 22:31:32,502 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 22:31:32,519 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 22:31:32,522 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 22:32:08,605 [Worker-14: Launching spring-ecommapp-allmapping-restapi - SpringEcommappAllmappingRestapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 22:32:08,614 [Worker-14: Launching spring-ecommapp-allmapping-restapi - SpringEcommappAllmappingRestapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 22:32:08,617 [Worker-14: Launching spring-ecommapp-allmapping-restapi - SpringEcommappAllmappingRestapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-23 22:34:41,263 [Worker-14: Launching spring-ecommapp-allmapping-restapi - SpringEcommappAllmappingRestapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-23 22:34:41,277 [Worker-14: Launching spring-ecommapp-allmapping-restapi - SpringEcommappAllmappingRestapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-23 22:34:41,279 [Worker-14: Launching spring-ecommapp-allmapping-restapi - SpringEcommappAllmappingRestapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-24 16:18:33,378 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-24 16:43:35,651 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-24 16:43:35,676 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 16:43:35,680 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-24 16:44:27,875 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-24 16:44:27,884 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 16:44:27,886 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-24 16:45:29,217 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-24 16:45:29,227 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 16:45:29,230 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-24 16:46:27,185 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-24 16:46:27,193 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 16:46:27,195 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-24 16:48:08,044 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-24 16:48:08,056 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 16:48:08,059 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources
+2025-07-24 16:57:50,566 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-07-24 16:57:50,577 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-24 16:57:50,579 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory I:\Spring\SpringBoot\SpringBoot_Learning\spring-ecommapp-allmapping-restapi\src\test\resources

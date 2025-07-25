@@ -1,6 +1,9 @@
 package com.ecommapp.model;
 
+import java.util.List;
 import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,5 +23,6 @@ public class CategoryDto {
 	private Integer categoryId;
 	private String categoryName;
 	@ToString.Exclude
-	private Set<Product> products;
+	@JsonIgnore
+	private List<Product> products;
 }

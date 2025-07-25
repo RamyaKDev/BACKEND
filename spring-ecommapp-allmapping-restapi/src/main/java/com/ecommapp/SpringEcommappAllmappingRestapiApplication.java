@@ -24,26 +24,26 @@ public class SpringEcommappAllmappingRestapiApplication implements CommandLineRu
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		BrandDto brandDto=new BrandDto("Samsung");
-		brandService.addBrand(brandDto);
-		
-		brandDto=new BrandDto("Adidas");
-		brandService.addBrand(brandDto);
-		
-		brandDto=new BrandDto("Dell");
-		brandService.addBrand(brandDto);
-		
-		brandDto=new BrandDto("Lavie");
-		brandService.addBrand(brandDto);
-		
-		CategoryDto categoryDto=new CategoryDto("Electronics");
-		categoryService.addCategory(categoryDto);
-		
-		categoryDto=new CategoryDto("Sports");
-		categoryService.addCategory(categoryDto);
-		
-		categoryDto=new CategoryDto("Bags");
-		categoryService.addCategory(categoryDto);
+//		BrandDto brandDto=new BrandDto("Samsung");
+//		brandService.addBrand(brandDto);
+//		
+//		brandDto=new BrandDto("Adidas");
+//		brandService.addBrand(brandDto);
+//		
+//		brandDto=new BrandDto("Dell");
+//		brandService.addBrand(brandDto);
+//		
+//		brandDto=new BrandDto("Lavie");
+//		brandService.addBrand(brandDto);
+//		
+//		CategoryDto categoryDto=new CategoryDto("Electronics");
+//		categoryService.addCategory(categoryDto);
+//		
+//		categoryDto=new CategoryDto("Sports");
+//		categoryService.addCategory(categoryDto);
+//		
+//		categoryDto=new CategoryDto("Bags");
+//		categoryService.addCategory(categoryDto);
 	}
 
 }

@@ -39,11 +39,11 @@ public class ProductDto {
 
 	private Features features;
 
-	private Set<Offers> offers;
+	private List<Offers> offers;
 
 	private Brand brand;
 
-	private Set<Category> categories;
+	private List<Category> categories;
 
 	private List<String> paymentModes;// CashOnDelivery,UPI,CreditCard
 

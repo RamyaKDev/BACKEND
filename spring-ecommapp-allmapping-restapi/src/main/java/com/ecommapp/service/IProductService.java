@@ -13,8 +13,8 @@ public interface IProductService {
 	ProductDto getById(int productId)throws ProductNotFoundException;
 	List<ProductDto> getAll();
 	
-	//Derived Queries
-//	List<ProductDto> getByBrand( String brand)throws ProductNotFoundException;
-//	List<ProductDto> getByCategory( String category)throws ProductNotFoundException;
-//	List<ProductDto> getByCatLessPrice(String category,double price)throws ProductNotFoundException;
+	//Custom Queries
+	List<ProductDto> getByBrand( String brand)throws ProductNotFoundException;
+	List<ProductDto> getByCategory( String category)throws ProductNotFoundException;
+	List<ProductDto> getByCatLessPrice(String category,double price)throws ProductNotFoundException;
 }

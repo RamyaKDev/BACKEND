@@ -1,6 +1,9 @@
 package com.ecommapp.model;
 
+import java.util.List;
 import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,12 +13,19 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.SequenceGenerator;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+//@Data
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode
 @Entity
 public class Brand {
 	@Id
@@ -26,5 +36,6 @@ public class Brand {
 
 	@OneToMany(mappedBy = "brand")
 	@ToString.Exclude
-	private Set<Product> products;
+	@JsonIgnore
+	private List<Product> products;
 }

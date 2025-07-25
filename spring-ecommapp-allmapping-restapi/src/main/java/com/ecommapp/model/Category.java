@@ -1,6 +1,9 @@
 package com.ecommapp.model;
 
+import java.util.List;
 import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -27,5 +30,6 @@ private String categoryName;
 
 @ManyToMany(mappedBy = "categories")
 @ToString.Exclude
-private Set<Product> products;
+@JsonIgnore
+private List<Product> products;
 }

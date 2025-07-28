@@ -3,6 +3,7 @@ package com.ecommapp.repository;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
@@ -28,5 +29,11 @@ public interface IProductRepository extends JpaRepository<Product, Integer>{
 			p.price <= :price			
 			""")
 	List<Product> findByCategoryPrice(@Param("categoryName") String category, @Param("price") double price);
+	
+	//nativeQuery
+	//use column name and table name
+		@Query(value = "update product set cost=?2 where product_id=?1",nativeQuery = true)
+		@Modifying
+		void updateProduct(int productId, double price);
 
 }

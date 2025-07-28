@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ecommapp.exception.ProductNotFoundException;
 import com.ecommapp.model.ProductDto;
+import com.ecommapp.model.ProductPriceDto;
 import com.ecommapp.service.IProductService;
 
 @RestController
@@ -42,6 +44,15 @@ public class ProductController {
 		headers.add("desc","update method called");
 		return ResponseEntity.status(HttpStatus.ACCEPTED).headers(headers).build();
 	}
+	
+	//http://localhost:8081/products-api/v1/products
+		@PatchMapping("/products/newprice")
+		ResponseEntity<Void> updateProduct(@RequestBody ProductPriceDto productpriceDto){
+			double price=productpriceDto.getPrice();
+			int productId=productpriceDto.getProductId();
+			productService.updateProductPrice(productId, price);
+			return ResponseEntity.status(HttpStatus.ACCEPTED).build();
+		}
 	
 	//http://localhost:8081/products-api/v1/products/productId/2
 	@DeleteMapping("/products/productId/{productId}")

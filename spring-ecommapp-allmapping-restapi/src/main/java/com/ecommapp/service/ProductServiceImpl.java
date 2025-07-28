@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.ecommapp.exception.ProductNotFoundException;
 import com.ecommapp.model.Product;
@@ -79,5 +80,12 @@ public class ProductServiceImpl implements IProductService {
 			throw new ProductNotFoundException("products with category and price with less amount not available");
 		return products.stream().map(product -> mapper.map(product, ProductDto.class)).collect(Collectors.toList());
 	}
+
+	@Override
+	@Transactional
+	public void updateProductPrice(int productId, double price) {
+		productRepository.updateProduct(productId, price);
+	}
+
 
 }

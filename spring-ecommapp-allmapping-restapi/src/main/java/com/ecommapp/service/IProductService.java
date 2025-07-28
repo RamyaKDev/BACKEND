@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.ecommapp.exception.ProductNotFoundException;
 import com.ecommapp.model.ProductDto;
+import com.ecommapp.model.ProductPriceDto;
 
 public interface IProductService {
 //CRUD Operation
@@ -15,6 +16,9 @@ public interface IProductService {
 	
 	//Custom Queries
 	List<ProductDto> getByBrand( String brand)throws ProductNotFoundException;
-	List<ProductDto> getByCategory( String category)throws ProductNotFoundException;
+	List<ProductDto> getByCategory( String category)throws ProductNotFoundException;	
 	List<ProductDto> getByCatLessPrice(String category,double price)throws ProductNotFoundException;
+	
+	//Native Query
+	void updateProductPrice(int productId,double price);
 }

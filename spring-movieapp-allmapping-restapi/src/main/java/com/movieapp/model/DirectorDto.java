@@ -18,17 +18,20 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity
-public class Director {
-	@Id
-	@GeneratedValue(generator="director_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="director_gen",sequenceName = "director_seq",initialValue = 1,allocationSize = 151)
+
+public class DirectorDto {
+	
 	private Integer directorId;
 	private String directorName;
 	private String directorInfo;
 	
-	@OneToMany(mappedBy = "director")
 	@ToString.Exclude
 	@JsonIgnore
 	private List<Movie> movies;
+
+	public DirectorDto(String directorName, String directorInfo) {
+		super();
+		this.directorName = directorName;
+		this.directorInfo = directorInfo;
+	}
 }

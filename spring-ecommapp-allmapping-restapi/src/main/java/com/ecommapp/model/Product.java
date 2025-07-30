@@ -61,8 +61,7 @@ public class Product {
 	@JoinColumn(name = "brand_id")
 	private Brand brand;
 
-	@ManyToMany(cascade = {
-	        
+	@ManyToMany(cascade = {      
 	        CascadeType.MERGE
 	    })
 	@JoinTable(name = "product_Category", joinColumns = @JoinColumn(name = "product_id"), inverseJoinColumns = @JoinColumn(name = "category_id"))

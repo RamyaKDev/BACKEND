@@ -22,26 +22,24 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity
-public class Theatre {
-	@Id
-	@GeneratedValue(generator="theatre_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="theatre_gen",sequenceName = "theatre_seq",initialValue = 1,allocationSize = 201)
+
+public class TheatreDto {
+	
 	private Integer theatreId;
 	private String theatreName;
 	private String ticketType; //mticket or eticket
-	private String theatreInfo;
-	
-	//One Theatre has many showtimes
-	@OneToMany(cascade=CascadeType.ALL,fetch = FetchType.EAGER)
-	//Add Theatre id in many side
-	@JoinColumn(name="theatre_Id")
-	private List<ShowTime> showTimes;
-	
-	@ManyToMany(mappedBy = "theaters")
+	private String theatreInfo;	
+	private List<ShowTimeDto> showTimes;	
 	@ToString.Exclude
 	@JsonIgnore
 	private List<Movie> movies;
+	public TheatreDto(String theatreName, String ticketType, String theatreInfo, List<ShowTimeDto> showTimes) {
+		super();
+		this.theatreName = theatreName;
+		this.ticketType = ticketType;
+		this.theatreInfo = theatreInfo;
+		this.showTimes = showTimes;
+	}
 	
 	
 }

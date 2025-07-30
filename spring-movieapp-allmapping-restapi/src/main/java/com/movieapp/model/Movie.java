@@ -4,7 +4,10 @@ import java.time.LocalDate;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.CollectionTable;
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -38,7 +41,7 @@ public class Movie {
 	@JoinColumn(name = "features_id")
 	private Features features;
 
-	@OneToMany(cascade = CascadeType.ALL)
+	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
 	//to add foreign key in review table
 	@JoinColumn(name = "movie_id")
 	private List<Review> reviews;
@@ -50,8 +53,18 @@ public class Movie {
 	@ManyToMany
 	@JoinTable(name = "Movie_Theatre", joinColumns = @JoinColumn(name = "movie_id"), 
 	inverseJoinColumns = @JoinColumn(name = "theatre_id"))
-
 	private List<Theatre> theaters;
 	
+	@ElementCollection
+	@CollectionTable(name="language",joinColumns=@JoinColumn(name="movie_id"))
+	private List<String> languages;//Tamil,Telugu,Hindi
+		
 	
+	@ElementCollection
+	@CollectionTable(name="genre",joinColumns = @JoinColumn(name="movie_id"))
+	private List<String> genres;
+	
+	@ElementCollection
+	@CollectionTable(name="format",joinColumns = @JoinColumn(name="movie_id"))
+	private List<String> formats;
 }

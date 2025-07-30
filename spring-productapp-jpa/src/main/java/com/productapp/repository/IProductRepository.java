@@ -30,6 +30,7 @@ public interface IProductRepository extends JpaRepository<Product, Integer>{
 	List<Product> findByCatProductName(String category,String productName);
 	
 	@Query("from Product p where p.brand= :brand and p.price <= :mprice")
+	
 	List<Product> findByBrandPrice(@Param("brand")String brand,@Param("mprice")double price);
 //Instead of ?1 place holder we can use :name by using @Param annotation for mapping
 	//Named Query

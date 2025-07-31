@@ -26,7 +26,7 @@ import lombok.ToString;
 public class Theatre {
 	@Id
 	@GeneratedValue(generator="theatre_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="theatre_gen",sequenceName = "theatre_seq",initialValue = 1,allocationSize = 201)
+	@SequenceGenerator(name="theatre_gen",sequenceName = "theatre_seq",initialValue = 201,allocationSize = 201)
 	private Integer theatreId;
 	private String theatreName;
 	private String ticketType; //mticket or eticket

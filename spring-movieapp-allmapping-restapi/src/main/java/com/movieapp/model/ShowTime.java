@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 public class ShowTime {
 	@Id
 	@GeneratedValue(generator="showtime_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="showtime_gen",sequenceName = "showtime_seq",initialValue = 1,allocationSize = 251)
+	@SequenceGenerator(name="showtime_gen",sequenceName = "showtime_seq",initialValue = 251,allocationSize = 251)
 	private Integer showtimeId;
 	private String time;
 }

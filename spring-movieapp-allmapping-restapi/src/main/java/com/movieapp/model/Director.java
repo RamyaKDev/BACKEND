@@ -22,7 +22,7 @@ import lombok.ToString;
 public class Director {
 	@Id
 	@GeneratedValue(generator="director_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="director_gen",sequenceName = "director_seq",initialValue = 1,allocationSize = 151)
+	@SequenceGenerator(name="director_gen",sequenceName = "director_seq",initialValue = 151,allocationSize = 151)
 	private Integer directorId;
 	private String directorName;
 	private String directorInfo;

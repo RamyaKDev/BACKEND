@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 
-public class ReviewDto {
+public class ReviewsDto {
 	
 	private Integer reviewId;
 	private String reviewerName;

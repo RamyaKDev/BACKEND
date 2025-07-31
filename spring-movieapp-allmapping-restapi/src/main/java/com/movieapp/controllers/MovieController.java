@@ -2,6 +2,7 @@ package com.movieapp.controllers;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,6 +23,7 @@ import com.movieapp.service.IMovieService;
 @RestController
 @RequestMapping("/movies-api/v1")
 public class MovieController {
+	@Autowired
 	private IMovieService movieService;
 	
 	//https://localhost:8081/movies-api/v1/movies
@@ -73,15 +75,7 @@ public class MovieController {
 		return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
 	}
 
-	//https://localhost:8081/movies-api/v1/movies/language?=Tamil
-	@GetMapping("/movies/language")
-	ResponseEntity<List<MovieDto>> getByLanguage(@RequestParam String language) throws MovieNotFoundException{
-			List<MovieDto> movieDto=movieService.getByLanguage(language);
-			HttpHeaders headers=new HttpHeaders();
-			headers.add("info", "Getting movie by language");
-			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
-		
-	}
+
 	
 	//https://localhost:8081/movies-api/v1/movies/director/James
 	@GetMapping("/movies/director/{director}")

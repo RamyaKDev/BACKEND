@@ -13,8 +13,7 @@ import com.movieapp.model.MovieDto;
 @Repository
 public interface IMovieRepository extends JpaRepository<Movie, Integer>{
 	
-	@Query("from Movie m inner join m.languages l where l.language=?1 ")
-	List<Movie> findByLanguage(String language);
+
 	
 	//equivalent sql query-> select * from movie inner join director where director_name like "%?%"
 	

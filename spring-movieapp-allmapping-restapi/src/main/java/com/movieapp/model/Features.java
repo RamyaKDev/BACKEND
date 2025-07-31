@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class Features {
 	@Id
 	@GeneratedValue(generator="features_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="features_gen",sequenceName = "features_seq",initialValue = 1,allocationSize = 51)
+	@SequenceGenerator(name="features_gen",sequenceName = "features_seq",initialValue = 51,allocationSize = 51)
 	private Integer featuresId;
 	private int rating;
 	private String movieInfo;

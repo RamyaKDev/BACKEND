@@ -32,10 +32,10 @@ public class MovieDto {
 	private Integer movieId;
 	private LocalDate localdate;
 	private Features features;	
-	private List<Review> reviews;	
+	private List<Reviews> reviews;	
 	private Director director;	
 	private List<Theatre> theaters;	
-	private List<String> language;	
+	private List<String> languages;	
 	private List<String> genres;	
 	private List<String> formats;
 }

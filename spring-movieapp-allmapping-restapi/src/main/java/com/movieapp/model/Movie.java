@@ -44,7 +44,7 @@ public class Movie {
 	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
 	//to add foreign key in review table
 	@JoinColumn(name = "movie_id")
-	private List<Review> reviews;
+	private List<Reviews> reviews;
 
 	@ManyToOne
 	@JoinColumn(name = "director_id")

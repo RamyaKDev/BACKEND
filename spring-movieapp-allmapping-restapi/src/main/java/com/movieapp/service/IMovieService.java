@@ -14,7 +14,7 @@ public interface IMovieService {
 		MovieDto getByMovieId(int movieId) throws MovieNotFoundException;
 		
 	//Custom methods	
-		List<MovieDto> getByLanguage(String language) throws MovieNotFoundException; 
+	
 		List<MovieDto> getByDirector(String directorName) throws MovieNotFoundException;
 		List<MovieDto> getByTheatreandmovie(String theatreName,String movieTitle) throws MovieNotFoundException;
 		

@@ -13,10 +13,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Entity
-public class Review {
+public class Reviews {
 	@Id
 	@GeneratedValue(generator="review_gen",strategy = GenerationType.AUTO)
-	@SequenceGenerator(name="review_gen",sequenceName = "review_seq",initialValue = 1,allocationSize = 101)
+	@SequenceGenerator(name="review_gen",sequenceName = "review_seq",initialValue = 101,allocationSize = 101)
 	private Integer reviewId;
 	private String reviewerName;
 	private String title;

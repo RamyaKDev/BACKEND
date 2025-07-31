@@ -59,14 +59,7 @@ public class MovieServiceImpl implements IMovieService{
 		return movieDto;
 	}
 
-	@Override
-	public List<MovieDto> getByLanguage(String language) throws MovieNotFoundException {
-		List<Movie> movies = movieRepository.findByLanguage(language);
-		if (movies.isEmpty())
-			throw new MovieNotFoundException("No movie found in the specified language");
-		return movies.stream().map((movie) -> mapper.map(movie, MovieDto.class))
-				.toList();
-	}
+//	
 
 	@Override
 	public List<MovieDto> getByDirector(String directorName) throws MovieNotFoundException {

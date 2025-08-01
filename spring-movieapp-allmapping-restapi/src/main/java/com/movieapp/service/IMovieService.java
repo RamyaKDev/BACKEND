@@ -18,4 +18,6 @@ public interface IMovieService {
 		List<MovieDto> getByDirector(String directorName) throws MovieNotFoundException;
 		List<MovieDto> getByTheatreandmovie(String theatreName,String movieTitle) throws MovieNotFoundException;
 		
+	//NativeQuery
+		void updateMovieTitle(int movieId,String movieTitle );
 }

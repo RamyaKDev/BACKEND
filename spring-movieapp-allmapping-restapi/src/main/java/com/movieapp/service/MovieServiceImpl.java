@@ -5,6 +5,7 @@ import java.util.List;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.movieapp.exception.MovieNotFoundException;
 import com.movieapp.model.Movie;
@@ -73,12 +74,19 @@ public class MovieServiceImpl implements IMovieService{
 
 	@Override
 	public List<MovieDto> getByTheatreandmovie(String theatreName, String movieTitle) throws MovieNotFoundException {
-		List<Movie> movies=movieRepository.findByTheatreandmovie("%"+theatreName+"%","%"+ movieTitle+"%");
+		List<Movie> movies=movieRepository.findByTheatreandmovie("%"+theatreName+"%", "%"+movieTitle+"%");
 		if(movies.isEmpty())
 			throw new MovieNotFoundException("No movie found in the specified theatreName and movieTitle");
 		return movies.stream()
 		.map((movie)->mapper.map(movie, MovieDto.class))
 		.toList();
+	}
+
+	@Override
+	@Transactional
+	public void updateMovieTitle(int movieId, String movieTitle) {
+		movieRepository.updateMovie(movieId, movieTitle);
+		
 	}
 
 	

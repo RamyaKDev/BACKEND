@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.hibernate.annotations.ManyToAny"/>
     <fullyQualifiedTypeName name="com.ecommapp.service.IProductService"/>
     <fullyQualifiedTypeName name="com.ecommapp.model.Category"/>
     <fullyQualifiedTypeName name="com.ecommapp.repository.IProductRepository"/>
@@ -14,7 +13,6 @@
     <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="jakarta.persistence.SequenceGenerator"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -28,9 +26,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ElementCollection"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.CollectionTable"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="com.movieapp.exception.MovieNotFoundException"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
     <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Modifying"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ElementCollection"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CollectionTable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
 </qualifiedTypeNameHistroy>

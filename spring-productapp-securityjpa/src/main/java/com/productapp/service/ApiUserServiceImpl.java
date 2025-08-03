@@ -21,8 +21,10 @@ public class ApiUserServiceImpl implements UserDetailsManager{
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
+		ApiUser apiUser=	apiUserRepository.findByUsername(username);
+		if(apiUser==null)
+			throw new UsernameNotFoundException("invalid user");
+		return apiUser;
 	}
 
 	@Override

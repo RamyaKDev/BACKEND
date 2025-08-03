@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.productapp.model.ApiUser;
 @Repository
 public interface ApiUserRepository extends JpaRepository<ApiUser, Integer>{
-
+	ApiUser findByUsername(String username);
 }

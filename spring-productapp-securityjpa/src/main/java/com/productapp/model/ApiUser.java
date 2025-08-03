@@ -8,9 +8,16 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import jakarta.persistence.CollectionTable;
+import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
+
 //import org.springframework.security.core.userdetails.UserDetails;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,11 +27,15 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class ApiUser implements UserDetails {
-	
+	@Column(length=20)
 	private String username;
 	private String password;
+	@Id
+	@GeneratedValue
 	private Integer userId;
 	private String email;
+	@ElementCollection
+	@CollectionTable(name = "apiuser_roles",joinColumns =@JoinColumn(name="apiuser_id") )
 	private Set<String> roles;//[admin,storemanager,salesman]
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {

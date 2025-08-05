@@ -16,22 +16,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 
-public class ApiUserDto implements UserDetails{
+public class ApiUserRequest  {
 	
 	private String username;
 	private String password;
 	private Integer userId;
 	private String email;
-	private Set<String> roles;
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-	//using streams
-			//convert roles to stream
-			List<SimpleGrantedAuthority> authorities = roles.stream()
-			      //convert each role to GA object
-			      .map(role-> new SimpleGrantedAuthority(role))
-			      .toList();
-			
-			return authorities;
-	}
+	private List<String> roles;
+	
 }

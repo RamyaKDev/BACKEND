@@ -15,6 +15,7 @@ import jakarta.persistence.ElementCollection;
 //import org.springframework.security.core.userdetails.UserDetails;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
@@ -27,16 +28,16 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class ApiUser implements UserDetails {
-	@Column(length=20)
+	@Column(unique=true)
 	private String username;
 	private String password;
 	@Id
 	@GeneratedValue
 	private Integer userId;
 	private String email;
-	@ElementCollection
+	@ElementCollection(fetch=FetchType.EAGER)
 	@CollectionTable(name = "apiuser_roles",joinColumns =@JoinColumn(name="apiuser_id") )
-	private Set<String> roles;//[admin,storemanager,salesman]
+	private List<String> roles;//[admin,storemanager,salesman]
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 //		List<GrantedAuthority> authorities =  new ArrayList<>();

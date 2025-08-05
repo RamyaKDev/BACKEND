@@ -27,15 +27,21 @@ public class ProductController {
 	@Autowired
 	private IProductService productService;
 	
-	//http://localhost:8081/products-api/v1/products
-	@PostMapping("/products")
+	//http://localhost:8081/products-api/v1/welcome 
+	@GetMapping("/welcome")
+	ResponseEntity<String> home(){
+		return ResponseEntity.ok().body("Welcome to ProductApp");
+	}
+
+	//http://localhost:8081/admin/products-api/v1/products
+	@PostMapping("/admin/products")
 	ResponseEntity<Void> addProduct(@RequestBody ProductDto productDto){
 		productService.addProduct(productDto);
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
 	
-	//http://localhost:8081/products-api/v1/products
-	@PutMapping("/products")
+	//http://localhost:8081/admin/products-api/v1/products
+	@PutMapping("/admin/products")
 	ResponseEntity<Void> updateProduct(@RequestBody ProductDto productDto){
 		productService.updateProduct(productDto);
 		HttpHeaders headers=new HttpHeaders();
@@ -44,8 +50,8 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.ACCEPTED).headers(headers).build();
 	}
 	
-	//http://localhost:8081/products-api/v1/products
-		@PatchMapping("/products/newprice")
+	//http://localhost:8081/products-api/v1/admin/products/newprice
+		@PatchMapping("/admin/products/newprice")
 		ResponseEntity<Void> updateProduct(@RequestBody ProductPriceDto productpriceDto){
 			double price=productpriceDto.getPrice();
 			int productId=productpriceDto.getProductId();
@@ -53,8 +59,8 @@ public class ProductController {
 			return ResponseEntity.status(HttpStatus.ACCEPTED).build();
 		}
 	
-	//http://localhost:8081/products-api/v1/products/productId/2
-	@DeleteMapping("/products/productId/{productId}")
+	//http://localhost:8081/admin/products-api/v1/products/productId/2
+	@DeleteMapping("/admin/products/productId/{productId}")
 	ResponseEntity<Void> deleteProduct(@PathVariable int productId){
 		productService.deleteProduct(productId);
 		HttpHeaders headers =new HttpHeaders();

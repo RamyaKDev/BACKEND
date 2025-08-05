@@ -8,7 +8,7 @@ import org.springframework.security.provisioning.UserDetailsManager;
 import org.springframework.stereotype.Service;
 
 import com.productapp.model.ApiUser;
-import com.productapp.model.ApiUserDto;
+import com.productapp.model.ApiUserRequest;
 
 import com.productapp.repository.IApiUserRepository;
 @Service
@@ -16,35 +16,35 @@ public class ApiUserServiceImpl implements UserDetailsManager{
 	@Autowired
 	private IApiUserRepository apiUserRepository;
 	
-	@Autowired
-	private ModelMapper mapper;
+	
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		ApiUser apiUser=	apiUserRepository.findByUsername(username);
+		ApiUser apiUser=apiUserRepository.findByUsername(username);
 		if(apiUser==null)
-			throw new UsernameNotFoundException("invalid user");
-		return apiUser;
+			throw new UsernameNotFoundException("invalid username");
+		//interface ref=implemetation class
+		UserDetails userDetails=apiUser;
+		return userDetails;
 	}
 
 	@Override
-	public void createUser(UserDetails apiUserDto) {
-		ApiUser user=mapper.map(apiUserDto, ApiUser.class);
-		apiUserRepository.save(user);
+	public void createUser(UserDetails user) {
+		ApiUser apiuser=(ApiUser) user;
+		apiUserRepository.save(apiuser);
 		
 	}
 
 	@Override
-	public void updateUser(UserDetails apiUserDto) {
-		ApiUser apiUser=mapper.map(apiUserDto, ApiUser.class);
-		apiUserRepository.save(apiUser);
+	public void updateUser(UserDetails user) {
+		apiUserRepository.save((ApiUser)user);
 		
 	}
 
 	@Override
 	public void deleteUser(String username) {
-		// TODO Auto-generated method stub
-		
+		ApiUser user=apiUserRepository.findByUsername(username);
+		apiUserRepository.delete(user);
 	}
 
 	@Override

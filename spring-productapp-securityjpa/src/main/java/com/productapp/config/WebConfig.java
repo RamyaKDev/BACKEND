@@ -1,4 +1,4 @@
-package com.productapp.config;
+ package com.productapp.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

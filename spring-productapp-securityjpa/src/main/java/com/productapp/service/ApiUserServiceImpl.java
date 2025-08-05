@@ -3,18 +3,18 @@ package com.productapp.service;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.provisioning.UserDetailsManager;
 import org.springframework.stereotype.Service;
 
 import com.productapp.model.ApiUser;
 import com.productapp.model.ApiUserDto;
-import com.productapp.repository.ApiUserRepository;
+
+import com.productapp.repository.IApiUserRepository;
 @Service
 public class ApiUserServiceImpl implements UserDetailsManager{
 	@Autowired
-	private ApiUserRepository apiUserRepository;
+	private IApiUserRepository apiUserRepository;
 	
 	@Autowired
 	private ModelMapper mapper;

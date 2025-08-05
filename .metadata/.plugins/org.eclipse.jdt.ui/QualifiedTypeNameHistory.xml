@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.ecommapp.service.IProductService"/>
     <fullyQualifiedTypeName name="com.ecommapp.model.Category"/>
     <fullyQualifiedTypeName name="com.ecommapp.repository.IProductRepository"/>
     <fullyQualifiedTypeName name="com.ecommapp.model.Product"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="jakarta.persistence.ElementCollection"/>
     <fullyQualifiedTypeName name="jakarta.persistence.CollectionTable"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
 </qualifiedTypeNameHistroy>

@@ -77,7 +77,7 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.OK).headers(headers).body(productDto);
 	}
 	
-//	 http://localhost:8081/product-api/v1/products
+//	 http://localhost:8081/products-api/v1/products
 	@GetMapping("/products")
 	ResponseEntity<List<ProductDto>> getAll(){
 		List<ProductDto> productDtos = productService.getAll();

@@ -43,6 +43,7 @@ public class JwtUserController {
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
 	
+	//http://localhost:8081/user-api/v1/authenticate
 	//user logging in and getting the token
 	@PostMapping("/authenticate")
 	public ResponseEntity<String> authenticate(@RequestBody JwtUserRequest userRequest){

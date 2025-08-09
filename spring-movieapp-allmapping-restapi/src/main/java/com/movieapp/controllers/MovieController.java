@@ -81,7 +81,7 @@ public class MovieController {
 		
 	}
 	
-	//https://localhost:8081/movies-api/v1/movies/movieId?movieId=1
+	//http://localhost:8081/movies-api/v1/movies/movieId?movieId=1
 	@GetMapping("/movies/movieId")
 	ResponseEntity<MovieDto> getByMovieId(@RequestParam int movieId) throws MovieNotFoundException{
 		MovieDto movieDto=movieService.getByMovieId(movieId);

@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.format.annotation.DateTimeFormat.ISO;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.CollectionTable;
 import jakarta.persistence.ElementCollection;
@@ -36,7 +38,8 @@ public class Movie {
 	@GeneratedValue(generator = "movie_gen", strategy = GenerationType.AUTO)
 	@SequenceGenerator(name = "movie_gen", sequenceName = "movie_seq", initialValue = 1, allocationSize = 1)
 	private Integer movieId;
-	@DateTimeFormat(iso = ISO.DATE)
+	@JsonFormat(pattern = "yyyy-MM-dd")
+	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
 	private LocalDate localdate;
 
 	//to save the child entity before saving parent entity

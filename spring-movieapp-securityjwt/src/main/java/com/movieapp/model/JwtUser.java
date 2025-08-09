@@ -36,7 +36,7 @@ public class JwtUser implements UserDetails {
 	private Integer userId;
 	
 	@ElementCollection(fetch=FetchType.EAGER)
-	@CollectionTable(name = "jwtuser_roles",joinColumns =@JoinColumn(name="apiuser_id") )
+	@CollectionTable(name = "jwtuser_roles",joinColumns =@JoinColumn(name="jwtuser_id") )
 	private List<String> roles;//[admin,storemanager,salesman]
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {

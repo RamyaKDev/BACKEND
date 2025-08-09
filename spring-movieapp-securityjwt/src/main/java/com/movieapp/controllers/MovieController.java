@@ -28,8 +28,15 @@ public class MovieController {
 	@Autowired
 	private IMovieService movieService;
 	
-	//http://localhost:8081/movies-api/v1/movies
-	@PostMapping("/movies")
+	//http://localhost:8081/movies-api/v1/welcome 
+		@GetMapping("/welcome")
+		ResponseEntity<String> home(){
+			return ResponseEntity.ok().body("Welcome to ProductApp");
+		}
+
+	
+	//http://localhost:8081/movies-api/v1/admin/movies
+	@PostMapping("/admin/movies")
 	ResponseEntity<Void> addMovie(@RequestBody MovieDto movieDto) {
 		movieService.addMovie(movieDto);
 		HttpHeaders headers=new HttpHeaders();
@@ -38,8 +45,8 @@ public class MovieController {
 
 	}
 	
-	//http://localhost:8081/movies-api/v1/movies
-	@PutMapping("/movies")
+	//http://localhost:8081/movies-api/v1/admin/movies
+	@PutMapping("/admin/movies")
 	ResponseEntity<Void> updateMovie(@RequestBody MovieDto movieDto) {
 		movieService.updateMovie(movieDto);
 		HttpHeaders headers=new HttpHeaders();
@@ -48,8 +55,8 @@ public class MovieController {
 		
 	}
 	
-	//http://localhost:8081/movies-api/v1/movies/newTitle
-	@PatchMapping("/movies/newTitle")
+	//http://localhost:8081/movies-api/v1/admin/movies/newTitle
+	@PatchMapping("/admin/movies/newTitle")
 	ResponseEntity<Void> updateMovie(@RequestBody MovieTitleDto movietitleDto) {
 		int movieId=movietitleDto.getMovieId();
 		String newmovie=movietitleDto.getMovieTitle();
@@ -61,8 +68,8 @@ public class MovieController {
 		
 		}
 	
-	//http://localhost:8081/movies-api/v1/movies/movieId/2
-	@DeleteMapping("/movies/movieId/{movieId}")
+	//http://localhost:8081/movies-api/v1/admin/movies/movieId/2
+	@DeleteMapping("/admin/movies/movieId/{movieId}")
 	ResponseEntity<Void> deleteMovie(@PathVariable int movieId){
 		movieService.deleteMovie(movieId);
 		HttpHeaders headers=new HttpHeaders();
@@ -70,8 +77,8 @@ public class MovieController {
 		return ResponseEntity.status(HttpStatus.OK).headers(headers).build();
 		
 	}
-	//http://localhost:8081/movies-api/v1/movies
-	@GetMapping("/movies")
+	//http://localhost:8081/movies-api/v1/admin/movies
+	@GetMapping("/admin/movies")
 	ResponseEntity<List<MovieDto>> getAll(){
 		List<MovieDto> movieDto=movieService.getAll();
 		HttpHeaders headers=new HttpHeaders();

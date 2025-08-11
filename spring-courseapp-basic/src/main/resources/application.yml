@@ -1,5 +1,1 @@
-spring:
-  datasource:
-    username=root
-    password=abcd
 

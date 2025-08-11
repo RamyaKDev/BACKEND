@@ -34,6 +34,9 @@ public class JwtUserServiceImpl implements UserDetailsManager{
 	public void createUser(UserDetails userRequest) {
 		//convert userRequest to jwtUser
 		JwtUser jwtUser=mapper.map(userRequest,JwtUser.class);
+		System.out.println("Service");
+		System.out.println(jwtUser.getUsername());
+		System.out.println(jwtUser.getPassword());
 		userRepository.save(jwtUser);
 		
 	}

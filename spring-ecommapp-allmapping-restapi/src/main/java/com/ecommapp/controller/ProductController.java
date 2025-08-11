@@ -45,7 +45,7 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.ACCEPTED).headers(headers).build();
 	}
 	
-	//http://localhost:8081/products-api/v1/products
+	//http://localhost:8081/products-api/v1/products/newprice
 		@PatchMapping("/products/newprice")
 		ResponseEntity<Void> updateProduct(@RequestBody ProductPriceDto productpriceDto){
 			double price=productpriceDto.getPrice();

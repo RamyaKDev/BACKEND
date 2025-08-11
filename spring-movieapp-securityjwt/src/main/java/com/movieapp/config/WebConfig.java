@@ -50,7 +50,7 @@ public class WebConfig {
 		return http
 			 .csrf(csrf->csrf.disable())
 		 	 .authorizeHttpRequests(httpRequest-> httpRequest
-		 		.requestMatchers("/user-api/v1/register","/user-api/v1/authenticate").permitAll()
+		 		.requestMatchers("/users-api/v1/register","/users-api/v1/authenticate").permitAll()
 		 		// authorize users with role as admin and user
 		 		.requestMatchers("/movies-api/v1/movies/**").hasAnyAuthority("ADMIN","USER")
 		 		// authorize users with role as admin and user

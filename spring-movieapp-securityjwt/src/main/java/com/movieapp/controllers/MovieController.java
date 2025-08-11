@@ -31,7 +31,8 @@ public class MovieController {
 	//http://localhost:8081/movies-api/v1/welcome 
 		@GetMapping("/welcome")
 		ResponseEntity<String> home(){
-			return ResponseEntity.ok().body("Welcome to ProductApp");
+			System.out.println("Welcome to MovieApp");
+			return ResponseEntity.ok().body("Welcome to MovieApp");
 		}
 
 	

@@ -1,5 +1,6 @@
 package com.movieapp.config;
 
+
 import java.io.IOException;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,6 +49,9 @@ public class JwtRequestFilter extends OncePerRequestFilter{
 			} catch (ExpiredJwtException e) {
 				System.out.println("Token has expired");
 			}
+		} else {
+			logger.warn("invalid token");
+		}
 		// if username is not null, check in db &&
 		// get the context from SecurityContextHolder and check if it is null
 		if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
@@ -67,6 +71,5 @@ public class JwtRequestFilter extends OncePerRequestFilter{
 		// this will be called first - for /register and /authenticate
 		filterChain.doFilter(request, response);
 
-	}
 	}
 }

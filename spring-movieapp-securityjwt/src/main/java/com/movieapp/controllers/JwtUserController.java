@@ -17,7 +17,7 @@ import com.movieapp.util.JwtTokenUtil;
 
 
 @RestController
-@RequestMapping("/user-api/v1")
+@RequestMapping("/users-api/v1")
 public class JwtUserController {
 	
 	@Autowired
@@ -27,7 +27,7 @@ public class JwtUserController {
 	@Autowired
 	private JwtTokenUtil jwtTokenUtil;
 	
-	//http://localhost:8081/user-api/v1/register
+	//http://localhost:8081/users-api/v1/register
 	//first time user
 	@PostMapping("/register")
 	public ResponseEntity<Void> createUser(@RequestBody JwtUserRequest userRequest) {
@@ -37,13 +37,15 @@ public class JwtUserController {
 		String newpassword=passwordEncoder.encode(password);
 		//attaching newpassword to userRequest
 		userRequest.setPassword(newpassword);
-		
+		System.out.println("Controller");
+		System.out.println(userRequest.getUsername());
+		System.out.println(userRequest.getPassword());
 		//call the service layer method to save the apiuser object
 		userServiceImpl.createUser(userRequest);
 		return ResponseEntity.status(HttpStatus.CREATED).build();
 	}
 	
-	//http://localhost:8081/user-api/v1/authenticate
+	//http://localhost:8081/users-api/v1/authenticate
 	//user logging in and getting the token
 	@PostMapping("/authenticate")
 	public ResponseEntity<String> authenticate(@RequestBody JwtUserRequest userRequest){

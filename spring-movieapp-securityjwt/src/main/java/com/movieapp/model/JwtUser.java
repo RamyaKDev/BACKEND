@@ -2,7 +2,6 @@ package com.movieapp.model;
 
 import java.util.Collection;
 import java.util.List;
-import java.util.Set;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -19,6 +18,7 @@ import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,6 +27,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Entity
+@Table(name="user")
 public class JwtUser implements UserDetails {
 	@Column(unique=true)
 	private String username;
@@ -36,7 +37,7 @@ public class JwtUser implements UserDetails {
 	private Integer userId;
 	
 	@ElementCollection(fetch=FetchType.EAGER)
-	@CollectionTable(name = "jwtuser_roles",joinColumns =@JoinColumn(name="jwtuser_id") )
+	@CollectionTable(name = "user_roles",joinColumns =@JoinColumn(name="user_id") )
 	private List<String> roles;//[admin,storemanager,salesman]
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {

@@ -1,6 +1,6 @@
 package com.movieapp.exception;
 
-public class DirectorNotFoundException extends Exception{
+public class DirectorNotFoundException extends RuntimeException{
 
 	/**
 	 * 

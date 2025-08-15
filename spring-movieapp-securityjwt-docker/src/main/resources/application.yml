@@ -1,0 +1,18 @@
+jwt:
+  secret: securityjwt
+
+server:
+  port: 8081
+
+#datasource specific properties
+spring:
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://moviemysqlcontainer:3306/movieappdb
+#jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

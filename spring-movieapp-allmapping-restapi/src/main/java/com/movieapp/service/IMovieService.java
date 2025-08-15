@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.movieapp.exception.MovieNotFoundException;
 import com.movieapp.model.MovieDto;
+import com.movieapp.model.IMovieProjectionDto;
 
 public interface IMovieService {
 	//CRUD Operations
@@ -20,4 +21,8 @@ public interface IMovieService {
 		
 	//NativeQuery
 		void updateMovieTitle(int movieId,String movieTitle );
+		
+	//projection	
+		IMovieProjectionDto getByMovieTitle(String movieTitle);
+		
 }

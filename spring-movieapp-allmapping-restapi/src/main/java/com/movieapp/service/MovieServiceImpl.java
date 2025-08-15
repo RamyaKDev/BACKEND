@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.movieapp.exception.MovieNotFoundException;
 import com.movieapp.model.Movie;
 import com.movieapp.model.MovieDto;
+import com.movieapp.model.IMovieProjectionDto;
 import com.movieapp.repository.IMovieRepository;
 
 @Service
@@ -87,6 +88,12 @@ public class MovieServiceImpl implements IMovieService{
 	public void updateMovieTitle(int movieId, String movieTitle) {
 		movieRepository.updateMovie(movieId, movieTitle);
 		
+	}
+
+	@Override
+	public IMovieProjectionDto getByMovieTitle(String movieTitle) {
+		
+		return movieRepository.findByMovieTitle(movieTitle);
 	}
 
 	

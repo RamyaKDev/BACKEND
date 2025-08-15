@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.movieapp.exception.MovieNotFoundException;
 import com.movieapp.model.MovieDto;
+import com.movieapp.model.IMovieProjectionDto;
 import com.movieapp.model.MovieTitleDto;
 import com.movieapp.service.IMovieService;
 
@@ -27,6 +28,7 @@ import com.movieapp.service.IMovieService;
 public class MovieController {
 	@Autowired
 	private IMovieService movieService;
+	private IMovieProjectionDto movieProjectionDto;
 	
 	//http://localhost:8081/movies-api/v1/movies
 	@PostMapping("/movies")
@@ -111,4 +113,12 @@ public class MovieController {
 			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
 		
 	}
+		//http://localhost:8081/movies-api/v1/movies/movieTitle/3BHK
+		@GetMapping("/movies/movieTitle/{movieTitle}")
+		ResponseEntity<IMovieProjectionDto> getByMovieTitle(@PathVariable String movieTitle) throws MovieNotFoundException{
+			IMovieProjectionDto movieDto=movieService.getByMovieTitle(movieTitle);
+			HttpHeaders headers=new HttpHeaders();
+			headers.add("info", "Getting movie by title");
+			return ResponseEntity.status(HttpStatus.OK).headers(headers).body(movieDto);
+		}
 }

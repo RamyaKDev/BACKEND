@@ -5,11 +5,9 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.movieapp.model.Movie;
-import com.movieapp.model.IMovieProjectionDto;
 
 @Repository
 public interface IMovieRepository extends JpaRepository<Movie, Integer>{
@@ -25,13 +23,10 @@ public interface IMovieRepository extends JpaRepository<Movie, Integer>{
 	List<Movie> findByTheatreandmovie(String theatreName,String movieTitle) ;
 	
 	//NativeQuery
-	@Query(value = "update movie set movie_title=?2 where movie_id=?1",nativeQuery = true)
-	@Modifying
-	 void updateMovie(int movieId,String movieTitle);
+		@Query(value = "update movie set movie_title=?2 where movie_id=?1",nativeQuery = true)
+		@Modifying
+		 void updateMovie(int movieId,String movieTitle);
 	
-	//select theatreName,showTime from movie where movieTitle=?1
-	// Fetch by movie title
-	@Query("SELECT t FROM Movie m inner join m.theaters t WHERE m.movieTitle = :title")
-	IMovieProjectionDto findByMovieTitle(@Param("title") String movieTitle);
+	
     
 }

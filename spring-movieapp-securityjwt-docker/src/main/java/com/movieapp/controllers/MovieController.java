@@ -110,7 +110,7 @@ public class MovieController {
 		
 	}
 	
-	//http://localhost:8081/movies-api/v1/movies/theatreName/Sri Ganesh/movieTitle/3BHK
+	//http://localhost:8081/movies-api/v1/movies/theatreName/Cinemax/movieTitle/3BHK
 		@GetMapping("/movies/theatreName/{theatreName}/movieTitle/{movieTitle}")
 	ResponseEntity<List<MovieDto>> getByTheatreandmovie(@PathVariable String theatreName,@PathVariable String movieTitle) throws MovieNotFoundException{
 			List<MovieDto> movieDto=movieService.getByTheatreandmovie(theatreName, movieTitle);

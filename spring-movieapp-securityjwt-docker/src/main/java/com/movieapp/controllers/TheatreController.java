@@ -2,6 +2,8 @@ package com.movieapp.controllers;
 
 
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -21,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.movieapp.exception.TheatreNotFoundException;
 
 import com.movieapp.model.TheatreDto;
+import com.movieapp.model.TheatreProjection;
 import com.movieapp.service.ITheatreService;
 
 @RestController
@@ -74,7 +77,14 @@ public class TheatreController {
 		return ResponseEntity.status(HttpStatus.OK).headers(headers).body(theatreDto);
 	}
 
-
+	//http://localhost:8081/movies-api/v1/movies/theatre/movieTitle/3BHK
+			@GetMapping("/movies/theatre/movieTitle/{movieTitle}")
+			ResponseEntity<List<TheatreProjection>> getByMovies(@PathVariable String movieTitle) throws TheatreNotFoundException{
+				List<TheatreProjection> theatredetails=theatreService.getByMovies(movieTitle);
+				HttpHeaders headers=new HttpHeaders();
+				headers.add("info", "Getting Theatre by movie");
+				return ResponseEntity.status(HttpStatus.OK).headers(headers).body(theatredetails);
+			}
 	
 	
 }

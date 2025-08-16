@@ -1,5 +1,7 @@
 package com.movieapp.service;
 
+import java.util.List;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -7,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.movieapp.exception.TheatreNotFoundException;
 import com.movieapp.model.Theatre;
 import com.movieapp.model.TheatreDto;
+import com.movieapp.model.TheatreProjection;
 import com.movieapp.repository.ITheatreRepository;
 
 @Service
@@ -54,5 +57,11 @@ public class TheatreServiceImpl implements ITheatreService{
 		return theatreDto;
 	}
 
-	
+
+	@Override
+	public List<TheatreProjection> getByMovies(String movieTitle) {		
+	 
+		return theatreRepository.findByMovies(movieTitle);
+				
+	}
 }

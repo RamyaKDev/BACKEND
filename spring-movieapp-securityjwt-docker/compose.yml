@@ -1,0 +1,31 @@
+services:
+ mysql:
+   image: mysql:8
+   container_name: moviemysqlcontainer
+   ports:
+      - 3307:3306
+   environment:
+    MYSQL_ROOT_PASSWORD: abcd
+    MYSQL_DATABASE: movieappdb
+   networks:
+    - movienetwork
+   healthcheck:
+     test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-pabcd"]
+     interval: 10s
+     timeout: 5s
+     retries: 5
+ movie-api:
+   image: movie-restapi:v1.0
+   build: .
+   container_name: movierestapicontainer
+   ports:
+     - "8081:8081"
+   depends_on:
+    mysql:
+     condition: service_healthy
+   networks:
+     - movienetwork  
+networks:
+ movienetwork:
+    driver: bridge
+  

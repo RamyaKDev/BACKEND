@@ -9,7 +9,7 @@ spring:
   datasource:
     username: root
     password: abcd
-    url: jdbc:mysql://myproductsqlcontainer:3306/mysqlproductdb
+    url: jdbc:mysql://mysqlcontainer:3306/mysqlproductdb
 #jpa properties
 
   jpa:

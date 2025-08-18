@@ -1,6 +1,6 @@
 package com.productapp.exception;
 
-public class BrandNotFoundException extends Exception {
+public class BrandNotFoundException extends RuntimeException {
 
 	/**
 	 * 

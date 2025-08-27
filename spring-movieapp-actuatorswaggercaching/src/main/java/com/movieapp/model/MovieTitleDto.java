@@ -1,0 +1,14 @@
+package com.movieapp.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class MovieTitleDto {
+	private Integer movieId;
+	private String movieTitle;
+	
+}

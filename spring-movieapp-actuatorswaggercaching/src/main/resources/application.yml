@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+#datasource specific properties
+spring:
+  datasource:
+    username: root
+    password: abcd
+    url: jdbc:mysql://localhost:3306/fmoviedb
+#jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "beans,info"
+      base-path: /management-dashboard      
+  endpoint:
+    health:
+      show-details: ALWAYS	
+logging:
+ level:
+  org.springframework.cache: DEBUG
+        

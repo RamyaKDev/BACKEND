@@ -57,7 +57,7 @@ public class Product {
 	@JoinColumn(name = "product_id")
 	private List<Offers> offers;
 
-	@ManyToOne(cascade= CascadeType.ALL)
+	@ManyToOne(cascade= CascadeType.MERGE)
 	@JoinColumn(name = "brand_id")
 	private Brand brand;
 

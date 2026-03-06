@@ -2098,3 +2098,870 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-21 19:56:45.646
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2025-12-30 08:03:25.381 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-30 08:03:28.135
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-12-30 08:03:28.425
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-30 08:03:43.782
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot_Learning\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-12-30 08:03:45.295
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-12-30 08:03:45.295
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-12-30 08:03:45.856
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-12-30 08:03:45.856
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-30 08:03:51.848
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot_Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1767099831847
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:51.849
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-12-30 08:03:51.860
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 32396
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-12-30 08:03:54.718
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.155
+!MESSAGE Boot project ADDED: StudentConstructorDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.157
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.163
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.164
+!MESSAGE Boot project ADDED: spring-allmappings-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.166
+!MESSAGE Boot project ADDED: spring-ecommapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.168
+!MESSAGE Boot project ADDED: spring-movieapp-actuatorswaggercaching
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.169
+!MESSAGE Boot project ADDED: spring-movieapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.171
+!MESSAGE Boot project ADDED: spring-movieapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.173
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.185
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.207
+!MESSAGE Boot project ADDED: spring-onetoone-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.234
+!MESSAGE Boot project ADDED: spring-productapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.259
+!MESSAGE Boot project ADDED: spring-productapp-securityjpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.261
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.292
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.322
+!MESSAGE Boot project ADDED: spring-restapi-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-12-30 08:03:55.349
+!MESSAGE Boot project ADDED: spring-upwork-allmapping-restapi
+!SESSION 2026-01-21 16:20:06.910 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-21 16:20:10.103
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-01-21 16:20:10.381
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-21 16:20:44.927
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot_Learning\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-01-21 16:20:46.331
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-21 16:20:46.334
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-01-21 16:20:46.887
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-21 16:20:46.887
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-01-21 16:20:51.852
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot_Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1769030451851
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:51.853
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-01-21 16:20:51.864
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 27412
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-21 16:20:54.842
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.279
+!MESSAGE Boot project ADDED: StudentConstructorDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.290
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.294
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.296
+!MESSAGE Boot project ADDED: spring-allmappings-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.296
+!MESSAGE Boot project ADDED: spring-ecommapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.297
+!MESSAGE Boot project ADDED: spring-movieapp-actuatorswaggercaching
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.299
+!MESSAGE Boot project ADDED: spring-movieapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.300
+!MESSAGE Boot project ADDED: spring-movieapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.302
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.303
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.305
+!MESSAGE Boot project ADDED: spring-onetoone-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.306
+!MESSAGE Boot project ADDED: spring-productapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.308
+!MESSAGE Boot project ADDED: spring-productapp-securityjpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.309
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.311
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.312
+!MESSAGE Boot project ADDED: spring-restapi-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:20:55.313
+!MESSAGE Boot project ADDED: spring-upwork-allmapping-restapi
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-21 16:55:49.521
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-21 16:55:49.522
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-21 16:55:49.523
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-21 16:55:49.524
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-21 16:55:49.529
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-21 16:55:49.531
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface 2 0 2026-01-21 16:55:49.794
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-01-21 16:55:49.794
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-21 16:55:53.431
+!MESSAGE Cannot read properties of null (reading 'scrollWidth')
+!STACK 0
+org.eclipse.swt.SWTException: Cannot read properties of null (reading 'scrollWidth')
+	at org.eclipse.swt.browser.Edge.evaluate(Edge.java:908)
+	at org.eclipse.swt.browser.WebBrowser.evaluate(WebBrowser.java:405)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:665)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:614)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.safeEvaluate(FocusableBrowserInformationControl.java:128)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$0(FocusableBrowserInformationControl.java:95)
+	at org.eclipse.swt.browser.ProgressListener$2.completed(ProgressListener.java:97)
+	at org.eclipse.swt.browser.Edge.lambda$45(Edge.java:1109)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4094)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-21 16:55:53.439
+!MESSAGE Cannot read properties of null (reading 'scrollHeight')
+!STACK 0
+org.eclipse.swt.SWTException: Cannot read properties of null (reading 'scrollHeight')
+	at org.eclipse.swt.browser.Edge.evaluate(Edge.java:908)
+	at org.eclipse.swt.browser.WebBrowser.evaluate(WebBrowser.java:405)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:665)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:614)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.safeEvaluate(FocusableBrowserInformationControl.java:128)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$0(FocusableBrowserInformationControl.java:99)
+	at org.eclipse.swt.browser.ProgressListener$2.completed(ProgressListener.java:97)
+	at org.eclipse.swt.browser.Edge.lambda$45(Edge.java:1109)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4094)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-21 16:55:53.440
+!MESSAGE Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+	at org.eclipse.swt.browser.Edge.evaluate(Edge.java:908)
+	at org.eclipse.swt.browser.WebBrowser.evaluate(WebBrowser.java:405)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:665)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:614)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.safeEvaluate(FocusableBrowserInformationControl.java:128)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$0(FocusableBrowserInformationControl.java:100)
+	at org.eclipse.swt.browser.ProgressListener$2.completed(ProgressListener.java:97)
+	at org.eclipse.swt.browser.Edge.lambda$45(Edge.java:1109)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4094)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-21 16:55:53.442
+!MESSAGE Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.
+	at org.eclipse.swt.browser.Edge.evaluate(Edge.java:908)
+	at org.eclipse.swt.browser.WebBrowser.evaluate(WebBrowser.java:405)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:665)
+	at org.eclipse.swt.browser.Browser.evaluate(Browser.java:614)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.safeEvaluate(FocusableBrowserInformationControl.java:128)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$0(FocusableBrowserInformationControl.java:101)
+	at org.eclipse.swt.browser.ProgressListener$2.completed(ProgressListener.java:97)
+	at org.eclipse.swt.browser.Edge.lambda$45(Edge.java:1109)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4094)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:56:07.540
+!MESSAGE Classpath changed for project: spring-courseapp-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:56:07.541
+!MESSAGE Boot project ADDED: spring-courseapp-basic
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-21 16:56:08.439
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-21 16:56:08.470
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:56:53.873
+!MESSAGE Classpath changed for project: spring-upworks-jpa-onetoone
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 16:56:53.880
+!MESSAGE Boot project ADDED: spring-upworks-jpa-onetoone
+!SESSION 2026-01-21 19:54:32.427 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-21 19:54:35.891
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-01-21 19:54:36.148
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-21 19:54:43.736
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot_Learning\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-01-21 19:54:44.878
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-21 19:54:44.878
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-01-21 19:54:45.363
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-21 19:54:45.364
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-01-21 19:54:50.293
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot_Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1769043290292
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:50.295
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-01-21 19:54:50.321
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 33024
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-21 19:54:53.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.893
+!MESSAGE Boot project ADDED: StudentConstructorDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.895
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.900
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.902
+!MESSAGE Boot project ADDED: spring-allmappings-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.903
+!MESSAGE Boot project ADDED: spring-courseapp-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.905
+!MESSAGE Boot project ADDED: spring-ecommapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.906
+!MESSAGE Boot project ADDED: spring-movieapp-actuatorswaggercaching
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.908
+!MESSAGE Boot project ADDED: spring-movieapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.909
+!MESSAGE Boot project ADDED: spring-movieapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.910
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.912
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.913
+!MESSAGE Boot project ADDED: spring-onetoone-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.913
+!MESSAGE Boot project ADDED: spring-productapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.914
+!MESSAGE Boot project ADDED: spring-productapp-securityjpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.915
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.917
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.919
+!MESSAGE Boot project ADDED: spring-restapi-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.920
+!MESSAGE Boot project ADDED: spring-upwork-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-21 19:54:53.922
+!MESSAGE Boot project ADDED: spring-upworks-jpa-onetoone
+!SESSION 2026-01-24 16:16:09.915 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-24 16:16:12.655
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-01-24 16:16:12.894
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-24 16:16:33.047
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot_Learning\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-01-24 16:16:34.314
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-24 16:16:34.314
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-01-24 16:16:34.866
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-01-24 16:16:34.866
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-01-24 16:16:40.133
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot_Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1769289400132
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:40.134
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-01-24 16:16:40.189
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 40228
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-24 16:16:42.870
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.006
+!MESSAGE Boot project ADDED: StudentConstructorDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.007
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.009
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.009
+!MESSAGE Boot project ADDED: spring-allmappings-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.011
+!MESSAGE Boot project ADDED: spring-courseapp-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.012
+!MESSAGE Boot project ADDED: spring-ecommapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.013
+!MESSAGE Boot project ADDED: spring-movieapp-actuatorswaggercaching
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.014
+!MESSAGE Boot project ADDED: spring-movieapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.014
+!MESSAGE Boot project ADDED: spring-movieapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.016
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.016
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.017
+!MESSAGE Boot project ADDED: spring-onetoone-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.018
+!MESSAGE Boot project ADDED: spring-productapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.019
+!MESSAGE Boot project ADDED: spring-productapp-securityjpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.021
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.021
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.022
+!MESSAGE Boot project ADDED: spring-restapi-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.023
+!MESSAGE Boot project ADDED: spring-upwork-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-01-24 16:16:43.024
+!MESSAGE Boot project ADDED: spring-upworks-jpa-onetoone
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-01-24 16:16:48.759
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.LanguageServerWrapper$2 RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	 at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	 at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+	 at org.eclipse.lsp4e.LanguageServerWrapper$2.run(LanguageServerWrapper.java:446)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-02-09 16:45:20.031 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-09 16:45:23.817
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-02-09 16:45:24.088
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-09 16:45:36.007
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot_Learning\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-02-09 16:45:37.365
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-02-09 16:45:37.365
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-02-09 16:45:38.012
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-02-09 16:45:38.012
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-02-09 16:45:45.083
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot_Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1770673545082
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:45.084
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-02-09 16:45:45.207
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 43132
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-09 16:45:59.158
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.566
+!MESSAGE Boot project ADDED: StudentConstructorDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.567
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.575
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.578
+!MESSAGE Boot project ADDED: spring-allmappings-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.579
+!MESSAGE Boot project ADDED: spring-courseapp-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.580
+!MESSAGE Boot project ADDED: spring-ecommapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.582
+!MESSAGE Boot project ADDED: spring-movieapp-actuatorswaggercaching
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.583
+!MESSAGE Boot project ADDED: spring-movieapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.584
+!MESSAGE Boot project ADDED: spring-movieapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.586
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.588
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.588
+!MESSAGE Boot project ADDED: spring-onetoone-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.589
+!MESSAGE Boot project ADDED: spring-productapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.590
+!MESSAGE Boot project ADDED: spring-productapp-securityjpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.591
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.592
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.592
+!MESSAGE Boot project ADDED: spring-restapi-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.593
+!MESSAGE Boot project ADDED: spring-upwork-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-09 16:45:59.594
+!MESSAGE Boot project ADDED: spring-upworks-jpa-onetoone
+!SESSION 2026-02-10 12:52:06.200 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-10 12:52:09.935
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-02-10 12:52:10.163
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-02-10 12:52:31.201
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot_Learning\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-02-10 12:52:32.066
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-02-10 12:52:32.066
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-02-10 12:52:32.521
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-02-10 12:52:32.521
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-02-10 12:52:40.667
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot_Learning/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1770745960657
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:40.667
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-02-10 12:52:40.758
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17452
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.761
+!MESSAGE Boot project ADDED: StudentConstructorDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.761
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.767
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.771
+!MESSAGE Boot project ADDED: spring-allmappings-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.775
+!MESSAGE Boot project ADDED: spring-courseapp-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.777
+!MESSAGE Boot project ADDED: spring-ecommapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.779
+!MESSAGE Boot project ADDED: spring-movieapp-actuatorswaggercaching
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.781
+!MESSAGE Boot project ADDED: spring-movieapp-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.783
+!MESSAGE Boot project ADDED: spring-movieapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.783
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.785
+!MESSAGE Boot project ADDED: spring-movieapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.785
+!MESSAGE Boot project ADDED: spring-onetoone-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.788
+!MESSAGE Boot project ADDED: spring-productapp-jpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.788
+!MESSAGE Boot project ADDED: spring-productapp-securityjpa
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.790
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.793
+!MESSAGE Boot project ADDED: spring-productapp-securityjwt-docker
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.794
+!MESSAGE Boot project ADDED: spring-restapi-basic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.795
+!MESSAGE Boot project ADDED: spring-upwork-allmapping-restapi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-02-10 12:52:46.795
+!MESSAGE Boot project ADDED: spring-upworks-jpa-onetoone
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-02-10 12:52:47.037
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
